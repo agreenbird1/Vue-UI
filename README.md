@@ -1,18 +1,45 @@
 ## AFanTi UI
 
-实现了Button、message消息提示框、confirm确认组件、dialog对话框以及notification五个简单的组件
+实现了Button、message消息提示框、confirm确认组件、dialog对话框以及notification注意框和skeleton骨架等简单的组件。
 
-项目使用 vue3 + ts + rollup进行打包和实现，采取es模块导出，并不兼容vue2
+项目使用 vue3 + ts + rollup进行打包和实现，采取es模块导出，支持全局引入和单独引入（标注函数式调用的组件只能单独引入使用！），并不兼容vue2。
 
-### Notification
 
-注意，Notification只支持函数式调用
+
+```vue
+// 单独引入
+<template>
+  <div>
+      <Skeleton width="200px"></Skeleton>
+  </div>
+</template>
+
+<script setup lang="ts">
+import { Skeleton } from "@juexiao/juexiao-AFanTi-UI";
+</script>
+```
+
+
+
+```typescript
+// 全局引入
+// main.ts
+import AFTUi from "@juexiao/juexiao-AFanTi-UI";
+
+createApp(App).use(AFTUi).mount("#app");
+```
+
+
+
+### notify
+
+注意，notify只支持函数式调用
 
 | 属性      | 说明                       | 类型    | 可选值                                      | 默认值    |
 | --------- | -------------------------- | ------- | ------------------------------------------- | --------- |
 | type      | 通知框类型                 | String  | warning/error/success/info                  | info      |
-| title     | 通知框头部                 | string  | -                                           | -         |
-| message   | 通知框文字                 | string  | -                                           | -         |
+| title     | 通知框头部文字             | string  | -                                           | -         |
+| text      | 通知框内容文字             | string  | -                                           | -         |
 | duration  | 通知框停留时间             | number  | -                                           | 4500 ms   |
 | offset    | 通知框距离当前最近边的距离 | number  | -                                           | 16        |
 | position  | 通知框的位置               | string  | top-right/top-left/bottom-right/bottom-left | top-right |
@@ -55,6 +82,19 @@
 | confirmDialog | 点击确定的回调    | —    |
 | cancelDialog  | 点击取消的回调    | —    |
 
+
+
+### Skeleton
+
+| 属性     | 说明             | 类型    | 可选值     | 默认值   |
+| -------- | ---------------- | ------- | ---------- | -------- |
+| bg       | 显示的背景颜色   | string  | -          | \#efefef |
+| width    | 骨架宽度         | string  | -          | 100px    |
+| height   | 骨架高度         | string  | -          | 100px    |
+| animated | 是否显示闪光动画 | boolean | true/false | true     |
+
+
+
 ### Button
 
 #### Button 按钮属性
@@ -72,7 +112,7 @@
 
 
 
-### Confirm 
+### confirm 
 
 注意，confirm只支持函数式调用，若希望进行组件式调用、使用插槽，请使用 Dialog 组件。
 
@@ -86,7 +126,7 @@
 </template>
 
 <script setup lang="ts">
-import { confirm } from "@juexiao/AFanTi-UI";
+import { confirm } from "@juexiao/juexiao-AFanTi-UI";
 confirm({
     title:"test",
     text:"test text"
@@ -109,15 +149,13 @@ confirm({
 
 
 
-### Message
+### message
 
-注意，Message只支持函数式调用
+注意，message只支持函数式调用
 
-#### Message 消息提示框属性
+#### message 消息提示框属性
 
 | 属性 | 说明       | 类型   | 可选值                | 默认值 |
 | ---- | ---------- | ------ | --------------------- | ------ |
 | type | 提示框类型 | string | warning/error/success | middle |
 | text | 提示框文字 | string | -                     | -      |
-
-
