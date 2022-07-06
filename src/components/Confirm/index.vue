@@ -86,6 +86,7 @@ const confirm = () => {
     .body {
       padding: 20px 40px;
       font-size: 16px;
+      color: #666;
     }
     .footer {
       text-align: right;
@@ -95,9 +96,11 @@ const confirm = () => {
     }
     .header {
       position: relative;
+
       h3 {
         font-weight: normal;
         font-size: 18px;
+        color: #000;
       }
       a {
         position: absolute;

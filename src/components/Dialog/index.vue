@@ -140,7 +140,7 @@ onMounted(() => {
 
     .header {
       position: relative;
-
+      color: #000;
       h3 {
         font-weight: normal;
         font-size: 18px;

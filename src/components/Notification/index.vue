@@ -162,6 +162,7 @@ export default defineComponent({
 
     & span:first-child {
       font-weight: 600;
+      color: #000;
     }
 
     .close {

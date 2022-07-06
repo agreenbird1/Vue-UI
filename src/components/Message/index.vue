@@ -70,7 +70,6 @@ const style = {
   padding: 0 25px;
   border: 1px solid #e4e4e4;
   background: #f5f5f5;
-  color: #999;
   border-radius: 4px;
 }
 .fade-enter-active,
@@ -84,6 +83,9 @@ const style = {
 .fade-enter-to {
   transform: none;
   opacity: 1;
+}
+.text {
+  color: #999;
 }
 .fade-leave-to {
   opacity: 0;
