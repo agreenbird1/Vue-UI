@@ -21,7 +21,7 @@
         <success v-if="type === 'success'"></success>
         <info v-if="type === 'info'"></info>
         &nbsp; &nbsp; &nbsp;
-        {{ message }}
+        {{ text }}
       </div>
     </div>
   </transition>
@@ -41,7 +41,7 @@ export default defineComponent({
       type: String,
       required: true,
     },
-    message: {
+    text: {
       type: String,
       required: true,
     },

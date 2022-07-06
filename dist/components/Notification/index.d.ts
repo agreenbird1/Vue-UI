@@ -3,7 +3,7 @@ declare const _default: import("vue").DefineComponent<{
         type: StringConstructor;
         required: true;
     };
-    message: {
+    text: {
         type: StringConstructor;
         required: true;
     };
@@ -68,7 +68,7 @@ declare const _default: import("vue").DefineComponent<{
         type: StringConstructor;
         required: true;
     };
-    message: {
+    text: {
         type: StringConstructor;
         required: true;
     };
