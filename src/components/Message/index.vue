@@ -7,7 +7,13 @@
       <error v-if="type === 'error'"></error>
       <warning v-if="type === 'warning'"></warning>
       <success v-if="type === 'success'"></success>
-      <span class="text">&nbsp;{{ text }}</span>
+      <span
+        class="text"
+        :style="{
+          color: style[type].color,
+        }"
+        >&nbsp;{{ text }}</span
+      >
     </div>
   </transition>
 </template>
@@ -83,9 +89,6 @@ const style = {
 .fade-enter-to {
   transform: none;
   opacity: 1;
-}
-.text {
-  color: #999;
 }
 .fade-leave-to {
   opacity: 0;

@@ -128,6 +128,9 @@ onMounted(() => {
     .body {
       padding: 20px 40px;
       font-size: 16px;
+      span {
+        color: #666;
+      }
     }
 
     .footer {
