@@ -46,11 +46,9 @@ interface IProps {
   isModal?: boolean; // 显示遮罩层
 }
 
+// 必传参数无默认值
 withDefaults(defineProps<IProps>(), {
-  title: "Tips",
-  text: "",
   showClose: false,
-  modelValue: false,
   isModal: true,
 });
 const emits = defineEmits([
