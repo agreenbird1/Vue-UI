@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657508140308" clover="3.2.0">
-  <project timestamp="1657508140308" name="All files">
-    <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="4" coveredelements="4" complexity="0" loc="4" ncloc="4" packages="2" files="2" classes="2"/>
+<coverage generated="1657517651230" clover="3.2.0">
+  <project timestamp="1657517651230" name="All files">
+    <metrics statements="18" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1" elements="19" coveredelements="19" complexity="0" loc="18" ncloc="18" packages="3" files="5" classes="5"/>
     <package name="Button">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Button\index.vue">
@@ -10,12 +10,38 @@
         <line num="21" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="Message">
+      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Message\index.vue">
+        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="1" type="stmt"/>
+      </file>
+    </package>
     <package name="Svgs">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="error.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\error.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="28" count="2" type="stmt"/>
+      </file>
+      <file name="success.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\success.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="26" count="1" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
+      </file>
+      <file name="warning.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\warning.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
       </file>
     </package>
   </project>
