@@ -22,7 +22,7 @@ import NotificationCp from "./index.vue";
 // type 确定时候的函数调用参数
 interface INotificationFnProps {
   title: string;
-  message: string;
+  text: string;
   duration?: number;
   offset?: number;
   position?: "top-right" | "top-left" | "bottom-right" | "bottom-left";
