@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
+    "jsx": "react",
     "target": "esnext",
     "module": "esnext",
     "strict": false,
-    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "types": ["@types/jest"]
+    "types": ["@types/jest"],
   },
-  "include": ["src/index.ts", "src/env.d.ts", "src/**/*.ts"]
+  "include": ["src/index.ts", "src/env.d.ts", "src/**/*.ts", "src/__test__/Button/button.test.tsx"]
 }

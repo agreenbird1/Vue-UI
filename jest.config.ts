@@ -172,10 +172,10 @@ export default {
 
   // A map from regular expressions to paths to transformers
   transform: {
+    '.*\\./\\.[jt]sx?$/$': 'babel-jest',
     // 用 `@vue/vue3-jest` 处理 `*.vue` 文件
     '.*\\.(vue)$': '@vue/vue3-jest',
     // 用 `babel-jest` 处理 js
-    '.*\\.(js)$': 'babel-jest'
   }
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
