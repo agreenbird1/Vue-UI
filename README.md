@@ -3,7 +3,7 @@
 实现了Button、message消息提示框、confirm确认组件、dialog对话框以及notification注意框和skeleton骨架等简单的组件。
 
 项目使用 vue3 + ts + rollup进行打包和实现，采取es模块导出，支持全局引入和单独引入（标注函数式调用的组件只能单独引入使用！），并不兼容vue2。
-
+同时使用jest等完成组件测试，语句覆盖率达90%。
 
 
 ```vue
