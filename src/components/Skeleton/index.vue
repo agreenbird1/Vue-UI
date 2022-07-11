@@ -13,14 +13,17 @@ interface IProps {
   animated?: boolean;
 }
 
-defineOptions({
-  name: "Skeleton",
-});
 withDefaults(defineProps<IProps>(), {
   bg: "#efefef",
   width: "100px",
   height: "100px",
   animated: true,
+});
+</script>
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "AFT-Skeleton",
 });
 </script>
 <style scoped lang="less">

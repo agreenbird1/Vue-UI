@@ -58,9 +58,6 @@ const emits = defineEmits([
   "openDialog",
   "update:modelValue",
 ]);
-defineOptions({
-  name: "Dialog",
-});
 
 // 关闭
 const close = () => {
@@ -80,6 +77,13 @@ const confirm = () => {
 
 onMounted(() => {
   emits("openDialog");
+});
+</script>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "AFT-Dialog",
 });
 </script>
 <style scoped lang="less">

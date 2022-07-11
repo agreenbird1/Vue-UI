@@ -6,7 +6,7 @@
     "jsx": "preserve",
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "types": ["unplugin-vue-define-options", "@types/jest"]
+    "types": ["@types/jest"]
   },
   "include": ["src/index.ts", "src/env.d.ts", "src/**/*.ts"]
 }

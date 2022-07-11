@@ -30,9 +30,6 @@ interface IProps {
   pconfirm: () => void;
 }
 
-defineOptions({
-  name: "Confirm",
-});
 const props = withDefaults(defineProps<IProps>(), {
   title: "温馨提示",
   text: "",
@@ -51,6 +48,15 @@ const confirm = () => {
   props.pconfirm && props.pconfirm();
 };
 </script>
+
+
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "AFT-Confirm",
+});
+</script>
+
 <style scoped lang="less">
 .v-enter-active,
 .v-leave-active {

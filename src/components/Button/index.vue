@@ -11,13 +11,15 @@ interface IProps {
   size: "mini" | "small" | "middle" | "large";
   type: "default" | "plain" | "primary" | "gray";
 }
-
-defineOptions({
-  name: "Button",
-});
 withDefaults(defineProps<IProps>(), {
   size: "middle",
   type: "default",
+});
+</script>
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "AFT-Button",
 });
 </script>
 

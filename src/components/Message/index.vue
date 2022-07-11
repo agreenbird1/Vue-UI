@@ -22,9 +22,6 @@ import { ref, onMounted } from "vue";
 import error from "../Svgs/error.vue";
 import warning from "../Svgs/warning.vue";
 import success from "../Svgs/success.vue";
-defineOptions({
-  name: "Message",
-});
 defineProps({
   text: {
     type: String,
@@ -61,6 +58,14 @@ const style = {
   },
 };
 </script>
+
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
+  name: "AFT-Message",
+});
+</script>
+
 <style scoped lang="less">
 .message {
   display: flex;
