@@ -1,25 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657527619472" clover="3.2.0">
-  <project timestamp="1657527619472" name="All files">
-    <metrics statements="83" coveredstatements="80" conditionals="4" coveredconditionals="4" methods="17" coveredmethods="14" elements="104" coveredelements="98" complexity="0" loc="83" ncloc="83" packages="5" files="9" classes="9"/>
-    <package name="Button">
+<coverage generated="1657533022619" clover="3.2.0">
+  <project timestamp="1657533022619" name="All files">
+    <metrics statements="164" coveredstatements="148" conditionals="15" coveredconditionals="12" methods="32" coveredmethods="22" elements="211" coveredelements="182" complexity="0" loc="164" ncloc="164" packages="8" files="14" classes="14"/>
+    <package name="src">
+      <metrics statements="13" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="index.ts" path="D:\afanti\demos\npm_packages\npm_package_study\src\index.ts">
+        <metrics statements="13" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="2" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Button">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Button\index.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="20" count="6" type="stmt"/>
-        <line num="21" count="3" type="stmt"/>
+        <line num="20" count="10" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
       </file>
     </package>
-    <package name="Confirm">
+    <package name="src.components.Confirm">
       <metrics statements="29" coveredstatements="29" conditionals="4" coveredconditionals="4" methods="7" coveredmethods="7"/>
       <file name="confirm.ts" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Confirm\confirm.ts">
         <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
         <line num="18" count="3" type="stmt"/>
         <line num="20" count="3" type="stmt"/>
@@ -30,12 +49,12 @@
         <line num="26" count="1" type="stmt"/>
         <line num="30" count="3" type="stmt"/>
         <line num="32" count="3" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
       </file>
       <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Confirm\index.vue">
         <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="2" type="stmt"/>
         <line num="39" count="2" type="stmt"/>
@@ -44,16 +63,16 @@
         <line num="44" count="1" type="cond" truecount="2" falsecount="0"/>
         <line num="47" count="2" type="stmt"/>
         <line num="48" count="1" type="cond" truecount="2" falsecount="0"/>
-        <line num="54" count="2" type="stmt"/>
-        <line num="55" count="1" type="stmt"/>
+        <line num="54" count="6" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="Dialog">
+    <package name="src.components.Dialog">
       <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Dialog\index.vue">
         <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="38" count="1" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
+        <line num="38" count="3" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
         <line num="62" count="5" type="stmt"/>
         <line num="63" count="5" type="stmt"/>
         <line num="64" count="1" type="stmt"/>
@@ -66,65 +85,151 @@
         <line num="75" count="1" type="stmt"/>
         <line num="78" count="5" type="stmt"/>
         <line num="79" count="5" type="stmt"/>
-        <line num="84" count="2" type="stmt"/>
-        <line num="85" count="1" type="stmt"/>
+        <line num="84" count="6" type="stmt"/>
+        <line num="85" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="Message">
+    <package name="src.components.Message">
       <metrics statements="30" coveredstatements="27" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="3"/>
       <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Message\index.vue">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="21" count="2" type="stmt"/>
-        <line num="22" count="2" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="4" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
         <line num="37" count="3" type="stmt"/>
         <line num="38" count="3" type="stmt"/>
         <line num="39" count="3" type="stmt"/>
         <line num="43" count="3" type="stmt"/>
-        <line num="63" count="4" type="stmt"/>
-        <line num="64" count="2" type="stmt"/>
+        <line num="63" count="8" type="stmt"/>
+        <line num="64" count="4" type="stmt"/>
       </file>
       <file name="message.ts" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Message\message.ts">
         <metrics statements="20" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
         <line num="18" count="2" type="stmt"/>
         <line num="19" count="2" type="stmt"/>
         <line num="21" count="2" type="stmt"/>
         <line num="22" count="2" type="stmt"/>
         <line num="24" count="0" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
+        <line num="29" count="3" type="stmt"/>
         <line num="30" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
+        <line num="32" count="3" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="35" count="3" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="39" count="1" type="stmt"/>
+        <line num="39" count="3" type="stmt"/>
       </file>
     </package>
-    <package name="Svgs">
-      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    <package name="src.components.Notification">
+      <metrics statements="64" coveredstatements="54" conditionals="11" coveredconditionals="8" methods="13" coveredmethods="8"/>
+      <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Notification\index.vue">
+        <metrics statements="13" coveredstatements="13" conditionals="1" coveredconditionals="1" methods="3" coveredmethods="3"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="87" count="4" type="stmt"/>
+        <line num="88" count="4" type="stmt"/>
+        <line num="110" count="4" type="stmt"/>
+        <line num="111" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="112" count="3" type="stmt"/>
+        <line num="115" count="4" type="stmt"/>
+        <line num="116" count="4" type="stmt"/>
+      </file>
+      <file name="notify.ts" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Notification\notify.ts">
+        <metrics statements="51" coveredstatements="41" conditionals="10" coveredconditionals="7" methods="10" coveredmethods="5"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="50" count="2" type="stmt"/>
+        <line num="51" count="2" type="stmt"/>
+        <line num="52" count="2" type="stmt"/>
+        <line num="53" count="2" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="62" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="64" count="4" type="stmt"/>
+        <line num="65" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="66" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="68" count="4" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="71" count="4" type="stmt"/>
+        <line num="72" count="4" type="stmt"/>
+        <line num="75" count="4" type="stmt"/>
+        <line num="79" count="3" type="stmt"/>
+        <line num="81" count="4" type="stmt"/>
+        <line num="82" count="4" type="stmt"/>
+        <line num="83" count="4" type="stmt"/>
+        <line num="84" count="4" type="stmt"/>
+        <line num="86" count="4" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="92" count="2" type="stmt"/>
+        <line num="93" count="1" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="98" count="2" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="2" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="105" count="2" type="stmt"/>
+        <line num="110" count="3" type="stmt"/>
+        <line num="111" count="3" type="stmt"/>
+        <line num="112" count="3" type="stmt"/>
+        <line num="113" count="3" type="stmt"/>
+        <line num="115" count="3" type="cond" truecount="0" falsecount="1"/>
+        <line num="117" count="3" type="stmt"/>
+        <line num="118" count="3" type="stmt"/>
+        <line num="120" count="3" type="stmt"/>
+        <line num="121" count="3" type="stmt"/>
+        <line num="122" count="3" type="stmt"/>
+        <line num="123" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="137" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Skeleton">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="index.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Skeleton\index.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Svgs">
+      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="error.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\error.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="26" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
+        <line num="26" count="5" type="stmt"/>
+        <line num="28" count="5" type="stmt"/>
       </file>
-      <file name="success.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\success.vue">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="26" count="2" type="stmt"/>
-        <line num="28" count="2" type="stmt"/>
-      </file>
-      <file name="warning.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\warning.vue">
+      <file name="info.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\info.vue">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="31" count="2" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
+      </file>
+      <file name="success.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\success.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="26" count="4" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+      </file>
+      <file name="warning.vue" path="D:\afanti\demos\npm_packages\npm_package_study\src\components\Svgs\warning.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="33" count="4" type="stmt"/>
       </file>
     </package>
   </project>
