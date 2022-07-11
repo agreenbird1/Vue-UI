@@ -22,12 +22,13 @@
   </svg>
 </template>
 
-<script setup lang="ts">
-defineOptions({
+<script lang="ts">
+import { defineComponent } from "vue";
+
+export default defineComponent({
   name: "error",
 });
 </script>
-
 <style>
 svg {
   width: 20px;
