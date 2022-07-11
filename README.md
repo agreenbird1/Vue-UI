@@ -15,7 +15,7 @@
 </template>
 
 <script setup lang="ts">
-import { Skeleton } from "@juexiao/juexiao-AFanTi-UI";
+import { AftSkeleton } from "@juexiao/juexiao-AFanTi-UI";
 </script>
 ```
 
