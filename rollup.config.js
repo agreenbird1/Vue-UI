@@ -8,8 +8,6 @@ import commonjs from "rollup-plugin-commonjs";
 // 代码压缩
 import { terser } from "rollup-plugin-terser";
 import autoprefixer from "autoprefixer";
-// 使用 defineOptions 来定义 name、props 等组件属性
-import DefineOptions from "unplugin-vue-define-options/rollup";
 import alias from "@rollup/plugin-alias";
 import path from "path";
 
@@ -34,7 +32,6 @@ export default {
       ],
     }),
     typescript({ tsconfigOverride: overrides }),
-    DefineOptions(),
     vue(),
     postcss({
       extensions: [".css", ".less"],
