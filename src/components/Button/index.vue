@@ -8,8 +8,8 @@
 
 <script setup lang="ts">
 interface IProps {
-  size: "mini" | "small" | "middle" | "large";
-  type: "default" | "plain" | "primary" | "gray";
+  size?: "mini" | "small" | "middle" | "large";
+  type?: "default" | "plain" | "primary" | "gray";
 }
 withDefaults(defineProps<IProps>(), {
   size: "middle",

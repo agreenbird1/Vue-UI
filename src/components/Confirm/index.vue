@@ -24,10 +24,10 @@ import { ref, onMounted } from "vue";
 import MyButton from "../Button/index.vue";
 
 interface IProps {
-  title: string;
-  text: string;
-  pcancel: () => void;
-  pconfirm: () => void;
+  title?: string;
+  text?: string;
+  pcancel?: () => void;
+  pconfirm?: () => void;
 }
 
 const props = withDefaults(defineProps<IProps>(), {
