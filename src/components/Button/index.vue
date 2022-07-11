@@ -6,6 +6,11 @@
   </button>
 </template>
 
+<script lang="ts">
+export default {
+  name: "AftButton",
+};
+</script>
 <script setup lang="ts">
 interface IProps {
   size?: "mini" | "small" | "middle" | "large";
@@ -14,12 +19,6 @@ interface IProps {
 withDefaults(defineProps<IProps>(), {
   size: "middle",
   type: "default",
-});
-</script>
-<script lang="ts">
-import { defineComponent } from "vue";
-export default defineComponent({
-  name: "AftButton",
 });
 </script>
 

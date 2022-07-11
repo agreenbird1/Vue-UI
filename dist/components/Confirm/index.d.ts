@@ -1,28 +1,28 @@
 declare const _default: import("vue").DefineComponent<{
     title: {
         type: StringConstructor;
-        required: true;
+        required: false;
         default: string;
     };
     text: {
         type: StringConstructor;
-        required: true;
+        required: false;
         default: string;
     };
     pcancel: {
         type: FunctionConstructor;
-        required: true;
+        required: false;
     };
     pconfirm: {
         type: FunctionConstructor;
-        required: true;
+        required: false;
     };
 }, {
     props: {
         title: string;
         text: string;
-        pcancel: () => void;
-        pconfirm: () => void;
+        pcancel?: () => void;
+        pconfirm?: () => void;
     };
     visible: import("vue").Ref<boolean>;
     cancel: () => void;
@@ -31,21 +31,21 @@ declare const _default: import("vue").DefineComponent<{
 }, unknown, {}, {}, import("vue").ComponentOptionsMixin, import("vue").ComponentOptionsMixin, Record<string, any>, string, import("vue").VNodeProps & import("vue").AllowedComponentProps & import("vue").ComponentCustomProps, Readonly<import("vue").ExtractPropTypes<{
     title: {
         type: StringConstructor;
-        required: true;
+        required: false;
         default: string;
     };
     text: {
         type: StringConstructor;
-        required: true;
+        required: false;
         default: string;
     };
     pcancel: {
         type: FunctionConstructor;
-        required: true;
+        required: false;
     };
     pconfirm: {
         type: FunctionConstructor;
-        required: true;
+        required: false;
     };
 }>>, {
     title: string;

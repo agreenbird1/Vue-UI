@@ -81,10 +81,9 @@ onMounted(() => {
 </script>
 
 <script lang="ts">
-import { defineComponent } from "vue";
-export default defineComponent({
+export default {
   name: "AftDialog",
-});
+};
 </script>
 <style scoped lang="less">
 .v-enter-active,

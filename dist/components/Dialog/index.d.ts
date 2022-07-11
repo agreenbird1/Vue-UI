@@ -2,12 +2,10 @@ declare const _default: import("vue").DefineComponent<{
     title: {
         type: StringConstructor;
         required: true;
-        default: string;
     };
     text: {
         type: StringConstructor;
         required: true;
-        default: string;
     };
     showClose: {
         type: BooleanConstructor;
@@ -17,7 +15,6 @@ declare const _default: import("vue").DefineComponent<{
     modelValue: {
         type: BooleanConstructor;
         required: true;
-        default: boolean;
     };
     isModal: {
         type: BooleanConstructor;
@@ -34,12 +31,10 @@ declare const _default: import("vue").DefineComponent<{
     title: {
         type: StringConstructor;
         required: true;
-        default: string;
     };
     text: {
         type: StringConstructor;
         required: true;
-        default: string;
     };
     showClose: {
         type: BooleanConstructor;
@@ -49,7 +44,6 @@ declare const _default: import("vue").DefineComponent<{
     modelValue: {
         type: BooleanConstructor;
         required: true;
-        default: boolean;
     };
     isModal: {
         type: BooleanConstructor;
@@ -63,8 +57,6 @@ declare const _default: import("vue").DefineComponent<{
     onOpenDialog?: (...args: any[]) => any;
     "onUpdate:modelValue"?: (...args: any[]) => any;
 }, {
-    title: string;
-    text: string;
     showClose: boolean;
     isModal: boolean;
 }>;

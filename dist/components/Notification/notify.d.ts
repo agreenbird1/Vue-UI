@@ -17,7 +17,7 @@
  */
 interface INotificationFnProps {
     title: string;
-    message: string;
+    text: string;
     duration?: number;
     offset?: number;
     position?: "top-right" | "top-left" | "bottom-right" | "bottom-left";

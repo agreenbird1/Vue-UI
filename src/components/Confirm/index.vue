@@ -51,10 +51,9 @@ const confirm = () => {
 
 
 <script lang="ts">
-import { defineComponent } from "vue";
-export default defineComponent({
+export default {
   name: "AftConfirm",
-});
+};
 </script>
 
 <style scoped lang="less">
