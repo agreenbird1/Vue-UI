@@ -35,7 +35,7 @@ import success from "../Svgs/success.vue";
 import info from "../Svgs/info.vue";
 
 export default defineComponent({
-  name: "Notification",
+  name: "AftNotification",
   props: {
     title: {
       type: String,

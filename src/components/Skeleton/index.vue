@@ -23,7 +23,7 @@ withDefaults(defineProps<IProps>(), {
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "AFT-Skeleton",
+  name: "AftSkeleton",
 });
 </script>
 <style scoped lang="less">

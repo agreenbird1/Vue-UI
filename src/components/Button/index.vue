@@ -19,7 +19,7 @@ withDefaults(defineProps<IProps>(), {
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "AFT-Button",
+  name: "AftButton",
 });
 </script>
 

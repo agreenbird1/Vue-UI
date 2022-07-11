@@ -62,7 +62,7 @@ const style = {
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "AFT-Message",
+  name: "AftMessage",
 });
 </script>
 

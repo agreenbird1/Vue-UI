@@ -83,7 +83,7 @@ onMounted(() => {
 <script lang="ts">
 import { defineComponent } from "vue";
 export default defineComponent({
-  name: "AFT-Dialog",
+  name: "AftDialog",
 });
 </script>
 <style scoped lang="less">
