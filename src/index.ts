@@ -1,11 +1,11 @@
 import confirm from "./components/Confirm/confirm";
 import message from "./components/Message/message";
-import Dialog from "./components/Dialog/index.vue";
+import AftDialog from "./components/Dialog/index.vue";
 import notify from "./components/Notification/notify";
-import Button from "./components/Button/index.vue";
-import Skeleton from "./components/Skeleton/index.vue";
+import AftButton from "./components/Button/index.vue";
+import AftSkeleton from "./components/Skeleton/index.vue";
 
-const components = [Dialog, Button, Skeleton];
+const components = [AftDialog, AftButton, AftSkeleton];
 
 // 全局注册
 const install = (app): void => {
@@ -16,7 +16,7 @@ const install = (app): void => {
 };
 
 // 局部注册
-export { confirm, message, notify, Dialog, Button, Skeleton };
+export { confirm, message, notify, AftDialog, AftButton, AftSkeleton };
 export default {
   install,
 };
